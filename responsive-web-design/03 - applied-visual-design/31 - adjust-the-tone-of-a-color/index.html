@@ -6,19 +6,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <style>
-    body {
-      min-height: 150vh;
+    header {
+      background-color: hsl(180, 90%, 35%);
+      color: #FFFFFF;
     }
 
-    #navbar {
-      position: fixed;
-      top: 0;
-      left: 0;
-''
+    nav {
+      background-color: hsl(180, 80%, 25%);
+    }
 
-
-      width: 100%;
-      background-color: #767676;
+    h1 {
+      text-indent: 10px;
+      padding-top: 10px;
     }
 
     nav ul {
@@ -33,21 +32,22 @@
 
     a {
       text-decoration: none;
+      color: inherit;
     }
   </style>
 </head>
 
 <body>
   <header>
-    <h1>Welcome!</h1>
-    <nav id="navbar">
+    <h1>Cooking with FCC!</h1>
+    <nav>
       <ul>
-        <li><a href="">Home</a></li>
-        <li><a href="">Contact</a></li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Classes</a></li>
+        <li><a href="#">Contact</a></li>
       </ul>
     </nav>
   </header>
-  <p>I shift up when the #navbar is fixed to the browser window.</p>
 </body>
 
 </html>
